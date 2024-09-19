@@ -6,15 +6,16 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: 'Intro Video';
 }
 
-.text {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #b60c0c;
+.IconImage {
+  border-radius: 50%;
 }
