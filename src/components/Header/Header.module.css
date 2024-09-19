@@ -1,0 +1,27 @@
+.header {
+  grid-area: header;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.header_navlist {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_navitem > a {
+  display: block;
+  padding: 30px;
+  color: #93c4c0;
+  text-decoration: none;
+  font-size: 30px;
+}

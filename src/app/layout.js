@@ -1,15 +1,10 @@
 import localFont from 'next/font/local';
 import './globals.css';
+import Header from '../components/Header/index.jsx';
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
+const LINESeedJP_OTF_Bd = localFont({
+  src: './fonts/LINESeedJP_OTF_Bd.woff',
+  variable: '--font-LINESeedJP_OTF_Bd',
 });
 
 export const metadata = {
@@ -20,9 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <h1>ヘッダー</h1>
-
+      <body className={`${LINESeedJP_OTF_Bd.variable}`}>
+        <Header />
         {children}
       </body>
     </html>
