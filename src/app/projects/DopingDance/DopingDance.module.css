@@ -27,9 +27,15 @@ Content
 }
 
 .video_link {
-  transform: scale(1.7);
-  width: 30%;
+  width: 100%;
+  max-width: 550px;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video_link :global(.twitter-tweet) {
+  margin: 0 auto !important;
 }
 
 .main_info {
@@ -135,4 +141,11 @@ Footer
 
 .header_navitem:hover span {
   transform: translate3d(0, -2px, 0);
+}
+
+/* twitterEmbedクラスを追加 */
+.twitterEmbed {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px 0;
 }

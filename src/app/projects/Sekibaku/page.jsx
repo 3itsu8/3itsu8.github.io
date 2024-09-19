@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './projects_content.module.css';
+import styles from './Sekibaku.module.css';
 
 const Page = () => {
   return (

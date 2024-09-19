@@ -1,30 +1,40 @@
-import React from 'react';
-import styles from './projects_content.module.css';
+'use client';
+
+import React, { useEffect } from 'react';
+import styles from './DopingDance.module.css';
 
 const Page = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://platform.twitter.com/widgets.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <section className={styles.content}>
         <div className={styles.all_projects_button}>
-          <a> All Projects</a>
+          <a> &lt;All Projects</a>
         </div>
         <div className={styles.main_info}>
           <div className={styles.video_link}>
             <blockquote className="twitter-tweet" data-media-max-width="560">
               <p lang="ja" dir="ltr">
                 STEAKA(@steaka_id)様のドーピングダンスという楽曲で二次創作させていただきました
-                <br />
                 本編:{' '}
                 <a href="https://t.co/fmb2n0Nksm">https://t.co/fmb2n0Nksm</a>
-                <br />
                 (匿名映像大会用に4か月くらい前に作ったものです){' '}
                 <a href="https://t.co/I9f3WlthFq">pic.twitter.com/I9f3WlthFq</a>
               </p>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
+              &mdash; みつば (@3itsu8){' '}
+              <a href="https://twitter.com/3itsu8/status/1651192127291031557">
+                March 29, 2023
+              </a>
             </blockquote>
           </div>
           <section className={styles.content_info}>

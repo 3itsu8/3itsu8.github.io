@@ -1,7 +1,20 @@
-import React from 'react';
-import styles from './projects_content.module.css';
+'use client';
+
+import React, { useEffect } from 'react';
+import styles from './Othello.module.css';
 
 const Page = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://platform.twitter.com/widgets.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <section className={styles.content}>
@@ -10,10 +23,7 @@ const Page = () => {
         </div>
         <div className={styles.main_info}>
           <div className={styles.video_link}>
-            <blockquote
-              className={styles.twitter - tweet}
-              data-media-max-width="560"
-            >
+            <blockquote className="twitter-tweet" data-media-max-width="560">
               <p lang="zxx" dir="ltr">
                 <a href="https://t.co/xAMTkHQJT9">pic.twitter.com/xAMTkHQJT9</a>
               </p>
@@ -21,12 +31,7 @@ const Page = () => {
               <a href="https://twitter.com/3itsu8/status/1822951166063554767?ref_src=twsrc%5Etfw">
                 August 12, 2024
               </a>
-            </blockquote>{' '}
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
+            </blockquote>
           </div>
           <section className={styles.content_info}>
             <div className={styles.content_title}>

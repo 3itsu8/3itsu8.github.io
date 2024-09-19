@@ -136,3 +136,9 @@ Footer
 .header_navitem:hover span {
   transform: translate3d(0, -2px, 0);
 }
+
+.twitterEmbed {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
