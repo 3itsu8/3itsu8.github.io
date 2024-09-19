@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './about.module.css'; // stylesオブジェクトのインポート
+export const metadata = {
+  title: 'みつば / About',
+};
 
 const Page = () => {
   return (

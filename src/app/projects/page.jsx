@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './projects.module.css';
 import Image from 'next/image';
+export const metadata = {
+  title: 'みつば / Projects',
+};
 
 export default function project() {
   return (
