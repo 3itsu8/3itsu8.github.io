@@ -11,11 +11,68 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr;
-  grid-template-areas: 'Intro Video';
+  grid-template-areas: 'Main Video';
+}
+
+.main {
+  grid-area: Main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.IntroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.IntroTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.IntroText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #93c4c0;
+}
+
+.IntroText:nth-child(2) {
+  font-size: 50px;
+  font-weight: bold;
+  color: #93c4c0;
+}
+
+.video {
+  grid-area: Video;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: -28%; /* ここを変更 */
+  z-index: 2;
+  clip-path: circle(46% at 50% 50%);
+}
+
+.video video {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  z-index: 100;
 }
 
 .IconImage {
-  border-radius: 50%;
+  border-radius: 100%;
 }
