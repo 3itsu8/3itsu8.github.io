@@ -1,0 +1,107 @@
+.container {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 90;
+  transition:
+    opacity 1s,
+    z-index 1s;
+}
+
+/* 
+Projects
+*/
+.section_title {
+  text-align: center;
+  padding-left: 25px;
+  color: #93c4c0;
+  font-size: 40px;
+}
+
+.contents_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+.contents_year {
+  font-size: 35px;
+  color: #93c4c0;
+  padding-left: 30px;
+}
+
+.content img {
+  width: 95%;
+  border-radius: 10px;
+}
+
+.content a {
+  display: inline;
+}
+
+/* 
+Footer
+*/
+.footer {
+  background-color: #93c4c0;
+  color: #fff;
+  font-size: 20px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+/* animation */
+.content {
+  overflow: hidden;
+  position: relative; /* 相対位置指定 */
+  opacity: 0; /* マスクを表示しない */
+  transform: translateY(50px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.content.fade-in {
+  opacity: 1; /* マスクを表示する */
+  transform: translateY(0);
+}
+
+.content .caption {
+  font-size: 200%;
+  text-align: center;
+  padding-top: 25%;
+  color: #fff;
+}
+.content .mask {
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute; /* 絶対位置指定 */
+  top: 0;
+  left: 0;
+  opacity: 0; /* マスクを表示しない */
+  background-color: rgba(0, 0, 0, 0.4); /* マスクは半透明 */
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.content:hover .mask {
+  opacity: 1; /* マスクを表示する */
+}
