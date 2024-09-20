@@ -4,6 +4,7 @@ import styles from './Kokoro.module.css';
 const Page = () => {
   return (
     <div className={styles.container}>
+      <title>Projects | みつば</title>
       <section className={styles.content}>
         <div className={styles.all_projects_button}>
           <a> &lt;All Projects</a>

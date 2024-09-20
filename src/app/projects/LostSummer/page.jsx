@@ -5,6 +5,7 @@ const Page = () => {
   return (
     <div className={styles.container}>
       <section className={styles.content}>
+        <title>Projects | みつば</title>
         <div className={styles.all_projects_button}>
           <a> &lt;All Projects</a>
         </div>

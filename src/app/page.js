@@ -5,6 +5,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className={styles.container}>
+      <title>Home | みつば</title>
       <div className={styles.main}>
         <div className={styles.IntroContainer}>
           <Image

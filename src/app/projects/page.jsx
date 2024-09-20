@@ -1,14 +1,12 @@
 import React from 'react';
 import styles from './projects.module.css';
 import Image from 'next/image';
-export const metadata = {
-  title: 'みつば / Projects',
-};
 
 export default function project() {
   return (
     <div className={styles.container}>
       <section className={styles.section_project}>
+        <title>Projects | みつば</title>
         <h2 className={styles.section_title}>Projects</h2>
         <h2 className={styles.contents_year}>2024</h2>
         <div className={styles.contents_item}>
