@@ -69,10 +69,10 @@ Footer
 }
 
 /* animation */
-.content {
+/* .content {
   overflow: hidden;
-  position: relative; /* 相対位置指定 */
-  opacity: 0; /* マスクを表示しない */
+  position: relative;
+  opacity: 0;
   transform: translateY(50px);
   transition:
     opacity 0.5s ease,
@@ -80,7 +80,7 @@ Footer
 }
 
 .content.fade-in {
-  opacity: 1; /* マスクを表示する */
+  opacity: 1;
   transform: translateY(0);
 }
 
@@ -94,14 +94,14 @@ Footer
   width: 95%;
   height: 100%;
   border-radius: 10px;
-  position: absolute; /* 絶対位置指定 */
+  position: absolute;
   top: 0;
   left: 0;
-  opacity: 0; /* マスクを表示しない */
-  background-color: rgba(0, 0, 0, 0.4); /* マスクは半透明 */
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 .content:hover .mask {
-  opacity: 1; /* マスクを表示する */
-}
+  opacity: 1;
+} */
