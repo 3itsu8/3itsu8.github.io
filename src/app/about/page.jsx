@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './about.module.css'; // stylesオブジェクトのインポート
+import Link from 'next/link';
 
 const Page = () => {
   return (
@@ -45,14 +46,14 @@ const Page = () => {
               <figcaption className={styles.X_ID}>
                 <p>
                   /{' '}
-                  <a
+                  <Link
                     href="https://x.com/3itsu8"
                     className={styles.X_Link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     @3itsu8
-                  </a>
+                  </Link>
                 </p>
               </figcaption>
             </figure>
@@ -69,14 +70,14 @@ const Page = () => {
               <figcaption className={styles.YT_ID}>
                 <p>
                   /{' '}
-                  <a
+                  <Link
                     href="https://www.youtube.com/@3itsu8"
                     className={styles.YT_Link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     みつば
-                  </a>
+                  </Link>
                 </p>
               </figcaption>
             </figure>
@@ -93,7 +94,7 @@ const Page = () => {
           </p>
         </div>
         <div className={styles.contact_mail}>
-          <a href="mailto:mitsuba.mov@gmail.com">mitsuba.mov@gmail.com</a>
+          <Link href="mailto:mitsuba.mov@gmail.com">mitsuba.mov@gmail.com</Link>
         </div>
       </section>
 
