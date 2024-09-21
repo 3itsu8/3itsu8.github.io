@@ -6,17 +6,17 @@ const Header = () => {
       <nav className={styles.header_nav}>
         <ul className={styles.header_navlist}>
           <li className={styles.header_navitem}>
-            <a>
+            <a href="/">
               <span>Home</span>
             </a>
           </li>
           <li className={styles.header_navitem}>
-            <a>
+            <a href="/projects">
               <span>Projects</span>
             </a>
           </li>
           <li className={styles.header_navitem}>
-            <a>
+            <a href="/about">
               <span>About</span>
             </a>
           </li>

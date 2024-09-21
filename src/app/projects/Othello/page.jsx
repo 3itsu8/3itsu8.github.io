@@ -19,7 +19,7 @@ const Page = () => {
     <div className={styles.container}>
       <section className={styles.content}>
         <div className={styles.all_projects_button}>
-          <a> &lt;All Projects</a>
+          <a href="/projects"> &lt;All Projects</a>
         </div>
         <div className={styles.main_info}>
           <div className={styles.video_link}>

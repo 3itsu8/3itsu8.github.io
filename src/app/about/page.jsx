@@ -5,6 +5,7 @@ import styles from './about.module.css'; // stylesオブジェクトのインポ
 const Page = () => {
   return (
     <div className={styles.container}>
+      <title>About | みつば</title>
       <section className={styles.section_about}>
         <h2 className={styles.section_title}>About</h2>
         <div className={styles.about_content}>
