@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className={`${LINESeedJP_OTF_Bd.variable}`}>
         <Header />
         {children}
