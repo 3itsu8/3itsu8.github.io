@@ -37,8 +37,9 @@ Projects
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10px;
+  margin-top: -60px;
   padding-left: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .contents_year {
@@ -51,6 +52,7 @@ Projects
   width: 95%;
   height: 95%;
   border-radius: 10px;
+  filter: blur(0px);
 }
 
 .content a {
