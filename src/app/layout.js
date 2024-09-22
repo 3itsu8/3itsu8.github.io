@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="ja">
       <body className={`${LINESeedJP_OTF_Bd.variable}`}>
         <Header />
-        {children}
+        <div className="content-wrapper">{children}</div>
       </body>
     </html>
   );
