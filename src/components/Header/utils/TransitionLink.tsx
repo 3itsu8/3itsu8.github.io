@@ -24,17 +24,17 @@ export const TransitionLink = ({
   ) => {
     e.preventDefault();
 
-    const content = document.querySelector('.content-wrapper'); // トランジションを適用する要素を取得
+    const content = document.querySelector('.content-wrapper');
 
     await sleep(500);
 
     content?.classList.add('page-transition');
 
-    router.push(href);
-
     await sleep(500);
 
     content?.classList.remove('page-transition');
+
+    router.push(href);
   };
 
   return (
