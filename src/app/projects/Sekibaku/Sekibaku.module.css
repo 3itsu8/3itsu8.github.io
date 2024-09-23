@@ -28,8 +28,8 @@ Content
 
 .video_link {
   transform: scale(1.7);
-  width: 30%;
-  margin: 0 auto;
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .main_info {

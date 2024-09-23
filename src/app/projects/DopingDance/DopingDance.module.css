@@ -27,9 +27,9 @@ Content
 }
 
 .video_link {
-  width: 100%;
+  width: fit-content;
+  margin-inline: auto;
   max-width: 550px;
-  margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
