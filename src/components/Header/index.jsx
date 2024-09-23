@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import TransitionLink from './utils/TransitionLink';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -8,19 +8,19 @@ const Header = () => {
       <nav className={styles.header_nav}>
         <ul className={styles.header_navlist}>
           <li className={styles.header_navitem}>
-            <TransitionLink href="/">
+            <Link href="/">
               <span>Home</span>
-            </TransitionLink>
+            </Link>
           </li>
           <li className={styles.header_navitem}>
-            <TransitionLink href="/projects">
+            <Link href="/projects">
               <span>Projects</span>
-            </TransitionLink>
+            </Link>
           </li>
           <li className={styles.header_navitem}>
-            <TransitionLink href="/about">
+            <Link href="/about">
               <span>About</span>
-            </TransitionLink>
+            </Link>
           </li>
         </ul>
       </nav>
