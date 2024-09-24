@@ -19,14 +19,17 @@ export function FadeIn(props: ComponentPropsWithoutRef<typeof motion.div>) {
     <motion.div
       transition={{
         duration: 0.5,
+        ease: 'easeIn',
       }}
       variants={{
         hidden: {
           opacity: 0,
-          y: shouldReduceMotion ? 0 : 40,
+          filter: 'blur(8px)',
+          y: shouldReduceMotion ? 0 : 30,
         },
         visible: {
           opacity: 1,
+          filter: 'blur(0px)',
           y: 0,
         },
       }}
