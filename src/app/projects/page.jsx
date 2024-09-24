@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './projects.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FadeIn } from '../../components/FadeIn';
 
 export default function project() {
   return (
@@ -11,7 +12,7 @@ export default function project() {
         <h2 className={styles.section_title}>Projects</h2>
         <h2 className={styles.contents_year}>2024</h2>
         <div className={styles.contents_item}>
-          <div className={styles.content}>
+          <FadeIn className={styles.content}>
             <Image
               src="/images/project/2024_Othello.png"
               alt='映像"Othello"'
@@ -23,8 +24,8 @@ export default function project() {
                 <div className={styles.caption}>Othello</div>
               </div>
             </Link>
-          </div>
-          <div className={styles.content}>
+          </FadeIn>
+          <FadeIn className={styles.content}>
             <Image
               src="/images/project/2024_inthegray.png"
               alt='映像"in the gray"'
@@ -36,12 +37,12 @@ export default function project() {
                 <div className={styles.caption}>【OS-4合作】in the gray</div>
               </div>
             </Link>
-          </div>
+          </FadeIn>
         </div>
 
         <h2 className={styles.contents_year}>2023</h2>
         <div className={styles.contents_item}>
-          <div className={styles.content}>
+          <FadeIn className={styles.content}>
             <Image
               src="/images/project/2023_Sekibaku.png"
               alt='映像"ハルノ寂寞"'
@@ -55,8 +56,8 @@ export default function project() {
                 </div>
               </div>
             </Link>
-          </div>
-          <div className={styles.content}>
+          </FadeIn>
+          <FadeIn className={styles.content}>
             <Image
               src="/images/project/2023_DopingDance.png"
               alt='映像"ドーピングダンス"'
@@ -70,12 +71,12 @@ export default function project() {
                 </div>
               </div>
             </Link>
-          </div>
+          </FadeIn>
         </div>
 
         <h2 className={styles.contents_year}>2022</h2>
         <div className={styles.contents_item}>
-          <div className={styles.content}>
+          <FadeIn className={styles.content}>
             <Image
               src="/images/project/2022_Kokoro.png"
               alt='映像"ココロ"'
@@ -89,8 +90,8 @@ export default function project() {
                 </div>
               </div>
             </Link>
-          </div>
-          <div className={styles.content}>
+          </FadeIn>
+          <FadeIn className={styles.content}>
             <Image
               src="/images/project/2022_LostSummer.png"
               alt='映像"ロスト・サマー"'
@@ -104,7 +105,7 @@ export default function project() {
                 </div>
               </div>
             </Link>
-          </div>
+          </FadeIn>
         </div>
       </section>
 

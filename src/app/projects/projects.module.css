@@ -37,7 +37,6 @@ Projects
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10px;
-  margin-top: -60px;
   padding-left: 30px;
   padding-bottom: 80px;
 }
