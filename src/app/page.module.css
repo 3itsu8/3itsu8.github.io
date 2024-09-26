@@ -76,3 +76,73 @@
 .IconImage {
   border-radius: 100%;
 }
+
+.circle {
+  border-radius: 100%;
+  background-color: #93c4c0;
+  width: 1300px;
+  height: 1300px;
+  display: none;
+}
+
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: Circle;
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas: 'header' 'Intro' 'Circle';
+  }
+
+  .video {
+    display: none;
+  }
+
+  .circle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main {
+    grid-area: Intro;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .IconImage {
+    width: 250px;
+    height: 250px;
+  }
+
+  .circleContainer {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .IntroTextContainer {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .IconImage {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

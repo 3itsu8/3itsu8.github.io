@@ -26,6 +26,9 @@ export default function Home() {
           <source src="/videos/Video.mp4" type="video/mp4" />
         </video>
       </div>
+      <div className={styles.circleContainer}>
+        <div className={styles.circle}></div>
+      </div>
     </div>
   );
 }
