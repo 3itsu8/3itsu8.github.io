@@ -28,6 +28,11 @@ export default function Home() {
       </div>
       <div className={styles.circleContainer}>
         <div className={styles.circle}></div>
+        <div className={styles.nameContainer}>
+          <div className={styles.name}>みつば</div>
+          <div className={styles.separator}></div>
+          <div className={styles.jobTitle}>Video Creator</div>
+        </div>
       </div>
     </div>
   );
