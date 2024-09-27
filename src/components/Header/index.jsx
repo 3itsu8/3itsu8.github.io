@@ -1,8 +1,15 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import styles from './Header.module.css';
 import Link from 'next/link';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className={styles.header}>
       <nav className={styles.header_nav}>
@@ -23,6 +30,17 @@ const Header = () => {
             </Link>
           </li>
         </ul>
+        <button onClick={handleClick} className={styles.button}>
+          <span
+            className={`${styles.span} ${isOpen ? styles.openFirst : styles.closedFirst}`}
+          ></span>
+          <span
+            className={`${styles.span} ${isOpen ? styles.openSecond : styles.closedSecond}`}
+          ></span>
+          <span
+            className={`${styles.span} ${isOpen ? styles.openThird : styles.closedThird}`}
+          ></span>
+        </button>
       </nav>
     </header>
   );
