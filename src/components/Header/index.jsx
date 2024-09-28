@@ -19,7 +19,7 @@ const Header = () => {
       scaleY: 1,
       transition: {
         duration: 0.5,
-        ease: [0.22, 1, 0.36, 1],
+        ease: [0.31, 0.13, 0.57, 0.4],
       },
     },
     exit: {
@@ -27,7 +27,7 @@ const Header = () => {
       transition: {
         delay: 0.3,
         duration: 0.5,
-        ease: [0.22, 1, 0.36, 1],
+        ease: [0.22, 0, 0.36, 0],
       },
     },
   };
@@ -127,6 +127,7 @@ const mobileLinkVars = {
   initial: {
     y: '-70%',
     opacity: 0,
+    filter: 'blur(3px)',
     transition: {
       duration: 0.5,
     },
@@ -134,8 +135,9 @@ const mobileLinkVars = {
   open: {
     y: 0,
     opacity: 1,
+    filter: 'blur(0px)',
     transition: {
-      duration: 0.7,
+      duration: 0.5,
       ease: [0.22, 1, 0.36, 1],
     },
   },
