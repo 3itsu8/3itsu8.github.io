@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
   position: fixed;
   z-index: 100;
   top: 0;
@@ -12,6 +11,7 @@
 }
 
 .header_navlist {
+  padding: 0 15px;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -140,5 +140,22 @@
 
   .openThird {
     transform: rotate(-45deg) translateY(-0.35rem); /* -rotate-45 -translate-y-1 */
+  }
+
+  .mobile_nav_background {
+    background-color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+  .mobile_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile_nav .title_links {
+    text-decoration: none !important;
   }
 }
