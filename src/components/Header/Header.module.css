@@ -160,7 +160,9 @@
     text-align: center;
   }
 
-  .mobile_nav > Link {
-    text-decoration: none !important;
+  .mobile_nav span {
+    display: inline-block;
+    text-decoration: none;
+    color: #93c4c0;
   }
 }
