@@ -19,15 +19,15 @@ const Header = () => {
       scaleY: 1,
       transition: {
         duration: 0.5,
-        ease: [0.12, 0, 0.39, 0],
+        ease: [0.22, 1, 0.36, 1],
       },
     },
     exit: {
       scaleY: 0,
       transition: {
-        delay: 0.2,
+        delay: 0.3,
         duration: 0.5,
-        ease: [0.39, 1, 0.4, 1],
+        ease: [0.22, 1, 0.36, 1],
       },
     },
   };
@@ -136,7 +136,7 @@ const mobileLinkVars = {
     opacity: 1,
     transition: {
       duration: 0.7,
-      ease: [0, 0.55, 0.45, 1],
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 };
