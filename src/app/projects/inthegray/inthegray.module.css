@@ -33,6 +33,8 @@ Content
 }
 
 .main_info {
+  display: flex;
+  flex-flow: column;
   color: #93c4c0;
   padding-top: 80px;
   align-items: center;
@@ -41,7 +43,7 @@ Content
 
 .content_info {
   padding-top: 100px;
-  padding-left: 455px;
+  justify-self: start;
 }
 
 .content_info h2 {
@@ -135,4 +137,11 @@ Footer
 
 .header_navitem:hover span {
   transform: translate3d(0, -2px, 0);
+}
+
+@media (max-width: 768px) {
+  .video_link {
+    width: fit-content;
+    margin-inline: auto;
+  }
 }

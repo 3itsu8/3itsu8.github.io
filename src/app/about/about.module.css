@@ -52,8 +52,8 @@ About
 
 .icon_img {
   border-radius: 50%;
-  width: 20%;
-  height: 20%;
+  width: 300px;
+  height: 300px;
 }
 
 .about_caption {
@@ -96,12 +96,12 @@ Social
 
 .X_img {
   border-radius: 50%;
-  width: 6%;
-  height: 6%;
+  width: 60px;
+  height: 60px;
 }
 
 .X_ID {
-  padding-left: 25px;
+  padding-left: 20px;
   color: #93c4c0;
   font-size: 25px;
 }
@@ -119,12 +119,12 @@ Social
 
 .YT_img {
   border-radius: 50%;
-  width: 6%;
-  height: 6%;
+  width: 60px;
+  height: 60px;
 }
 
 .YT_ID {
-  padding-left: 25px;
+  padding-left: 20px;
   color: #93c4c0;
   font-size: 25px;
 }
@@ -160,12 +160,21 @@ Contact
 Footer
 */
 .footer {
+  position: absolute;
+  /* bottom: 0;
+  left: 0; */
+  width: 100%;
   background-color: #93c4c0;
   color: #fff;
   font-size: 20px;
-  height: 200px;
-  line-height: 200px;
+  height: 15%;
+}
+
+.footer p {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* animation */
@@ -222,8 +231,8 @@ Footer
 @media (max-width: 870px) {
   .icon_img {
     border-radius: 50%;
-    width: 15%;
-    height: 15%;
+    width: 150px;
+    height: 150px;
   }
 
   .about_content {
@@ -243,6 +252,15 @@ Footer
   }
 
   .about_name {
+    padding-top: 20px;
     text-align: center;
+  }
+
+  .about_info {
+    letter-spacing: 1.5px;
+  }
+
+  .about_caption {
+    padding-left: 0px;
   }
 }

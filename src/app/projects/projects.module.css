@@ -109,6 +109,10 @@ Footer
 }
 
 @media (max-width: 1200px) {
+  .caption {
+    display: none;
+  }
+
   .section_title {
     text-align: center;
     padding-top: 8%;
