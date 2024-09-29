@@ -28,7 +28,7 @@ Projects
 */
 .section_title {
   text-align: center;
-  padding-left: 25px;
+  padding-top: 4%;
   color: #93c4c0;
   font-size: 40px;
 }
@@ -38,6 +38,7 @@ Projects
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10px;
   padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 80px;
 }
 
@@ -105,4 +106,24 @@ Footer
 }
 .content:hover .mask {
   opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .section_title {
+    text-align: center;
+    padding-top: 8%;
+    color: #93c4c0;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contents_item {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    padding-bottom: 80px;
+  }
 }
