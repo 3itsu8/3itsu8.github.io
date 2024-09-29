@@ -76,7 +76,7 @@ const Page = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    みつば
+                    @3itsu8
                   </Link>
                 </p>
               </figcaption>
