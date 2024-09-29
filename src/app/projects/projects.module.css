@@ -113,6 +113,10 @@ Footer
     display: none;
   }
 
+  .content .mask {
+    background-color: #ffffff00;
+  }
+
   .section_title {
     text-align: center;
     padding-top: 8%;

@@ -22,7 +22,7 @@
 Content
 */
 .content {
-  padding-top: 90px;
+  padding-top: 100px;
   padding-left: 50px;
 }
 
@@ -39,6 +39,7 @@ Content
   padding-top: 80px;
   align-items: center;
   justify-content: center;
+  padding-top: 160px;
 }
 
 .content_info {
@@ -141,7 +142,12 @@ Footer
 
 @media (max-width: 768px) {
   .video_link {
+    transform: scale(0.8);
     width: fit-content;
     margin-inline: auto;
+  }
+
+  .content {
+    padding-left: 10px;
   }
 }
