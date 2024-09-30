@@ -49,8 +49,10 @@ Projects
 }
 
 .content img {
+  display: block;
   width: 95%;
   height: 95%;
+  margin-inline: auto;
   border-radius: 10px;
   filter: blur(0px);
 }
@@ -98,7 +100,8 @@ Footer
   border-radius: 10px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.2s ease;
