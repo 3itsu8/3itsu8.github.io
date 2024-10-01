@@ -35,7 +35,7 @@ const Page = () => {
           </div>
           <section className={styles.content_info}>
             <div className={styles.content_title}>
-              <h2>Othello</h2>
+              <h2 className="text-2xl font-bold text-red-500">Othello</h2>
             </div>
             <div className={styles.content_caption}>
               <div className={styles.content_credits}>
