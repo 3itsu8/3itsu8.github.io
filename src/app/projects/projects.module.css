@@ -28,7 +28,7 @@ Projects
 */
 .section_title {
   text-align: center;
-  padding-left: 25px;
+  padding-top: 4%;
   color: #93c4c0;
   font-size: 40px;
 }
@@ -38,18 +38,21 @@ Projects
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10px;
   padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 80px;
 }
 
 .contents_year {
   font-size: 35px;
   color: #93c4c0;
-  padding-left: 30px;
+  padding-left: 45px;
 }
 
 .content img {
+  display: block;
   width: 95%;
   height: 95%;
+  margin-inline: auto;
   border-radius: 10px;
   filter: blur(0px);
 }
@@ -62,14 +65,17 @@ Projects
 Footer
 */
 .footer {
+  position: absolute;
+  width: 100%;
   background-color: #93c4c0;
   color: #fff;
   font-size: 20px;
-  height: 200px;
-  line-height: 200px;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
 /* animation */
 .content {
   overflow: hidden;
@@ -97,7 +103,8 @@ Footer
   border-radius: 10px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.2s ease;
@@ -105,4 +112,32 @@ Footer
 }
 .content:hover .mask {
   opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .caption {
+    display: none;
+  }
+
+  .content .mask {
+    background-color: #ffffff00;
+  }
+
+  .section_title {
+    text-align: center;
+    padding-top: 8%;
+    color: #93c4c0;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contents_item {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    padding-bottom: 80px;
+  }
 }

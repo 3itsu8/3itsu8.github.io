@@ -21,11 +21,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.video}>
-        <video autoPlay loop muted playsInline>
-          <source src="/videos/Video.mp4" type="video/mp4" />
-        </video>
-      </div>
+      <video className={styles.video} autoPlay loop muted playsInline>
+        <source src="/videos/Video.mp4" type="video/mp4" />
+      </video>
       <div className={styles.circleContainer}>
         <div className={styles.circle}></div>
         <div className={styles.nameContainer}>
