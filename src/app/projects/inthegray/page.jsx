@@ -5,10 +5,10 @@ const Page = () => {
   return (
     <div className={styles.container}>
       <title>Projects | みつば</title>
+      <div className={styles.all_projects_button}>
+        <a> &lt;All Projects</a>
+      </div>
       <section className={styles.content}>
-        <div className={styles.all_projects_button}>
-          <a> &lt;All Projects</a>
-        </div>
         <div className={styles.main_info}>
           <div className={styles.video_link}>
             <iframe
