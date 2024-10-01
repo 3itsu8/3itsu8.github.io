@@ -71,11 +71,15 @@ Content
 Footer
 */
 .footer {
+  position: absolute;
+  width: 100%;
   background-color: #93c4c0;
   color: #fff;
   font-size: 20px;
-  height: 200px;
-  line-height: 200px;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
