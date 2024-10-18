@@ -111,7 +111,7 @@
   }
 
   .span {
-    background-color: #93c4c0; /* steel-500の代わりのカラーコード */
+    background-color: #93c4c0; 
     block-size: 0.25rem; /* h-0.5 */
     inline-size: 2rem; /* w-6 */
     border-radius: 0.25rem;

@@ -36,12 +36,13 @@ Content
   box-sizing: border-box; /* パディングを幅に含める */
 }
 
-.video_link {
-  transform: scale(1.7);
-  width: 100%;
-  max-width: 560px;
+.video_link img {
+  max-width: 100%;
+  height: auto;
+  /* max-width: 560px; */
   margin: 60px auto 0; /* 上部のマージンを40pxから60pxに増やしました */
   overflow: hidden; /* はみ出した部分を隠す */
+  border-radius: 8px;
 }
 
 .main_info {
@@ -120,7 +121,8 @@ Content
   background-color: #93c4c0;
   color: #fff;
   font-size: clamp(16px, 3vw, 20px);
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,12 +131,12 @@ Content
   margin-top: auto;
 }
 
-.twitterEmbed {
+/* .twitterEmbed {
   max-width: 550px;
   margin: 0 auto;
   padding: 20px 0;
   width: 100%;
-}
+} */
 
 @media (max-width: 768px) {
   .content {
@@ -142,7 +144,6 @@ Content
   }
 
   .video_link {
-    transform: scale(1);
     max-width: 100%; /* 幅を100%に制限 */
     margin-top: 40px; /* スマートフォン表示時のマージンを調整 */
   }
@@ -192,6 +193,8 @@ Content
 
   .video_link {
     margin-top: 100px; /* iPadサイズでの動画上部のマージンをさらに増やす */
+    max-width: 100%; /* 幅を100%に制限 */
+    height: auto;
   }
 
   .main_info {
@@ -227,9 +230,9 @@ Content
     width: 48%;
   }
 
-  .twitterEmbed {
+  /* .twitterEmbed {
     width: 48%;
-  }
+  } */
 
   .video_link {
     margin-top: 240px; /* 160pxから240pxに大幅に増やしました */

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.button {
+  padding: 0;
+  border: none;
+  outline: none;
+  appearance: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button a {
+  color: #93c4c0;
+  font-size: clamp(18px, 3vw, 22px);
+  background-color: rgba(255, 255, 255);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 3.2rem;
+  padding-left: 3.2rem;
+}
+
+.button a:hover {
+  background-color: #93c4c0;
+  color: white;
+}
