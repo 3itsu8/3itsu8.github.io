@@ -36,6 +36,16 @@ Content
   box-sizing: border-box; /* パディングを幅に含める */
 }
 
+.video_link {
+  position: relative;
+}
+
+.video_link a{
+  position: absolute;
+  left: 2%;
+  bottom: 4%;
+}
+
 .video_link img {
   max-width: 100%;
   height: auto;
@@ -141,6 +151,12 @@ Content
 @media (max-width: 768px) {
   .content {
     padding-top: 120px; /* スマートォン表示時のパディングを調整 */
+  }
+
+  .video_link a{
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
   }
 
   .video_link {

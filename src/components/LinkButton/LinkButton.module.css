@@ -12,6 +12,7 @@
 .button a {
   color: #93c4c0;
   font-size: clamp(18px, 3vw, 22px);
+  text-decoration: none;
   background-color: rgba(255, 255, 255);
   border-radius: 8px;
   transition: all 0.3s ease;
@@ -24,4 +25,13 @@
 .button a:hover {
   background-color: #93c4c0;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .button a {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+  }
 }

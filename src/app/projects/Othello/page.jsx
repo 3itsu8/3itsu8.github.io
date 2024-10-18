@@ -8,6 +8,7 @@ const Page = () => {
   return (
     <div className={styles.container}>
       <section className={styles.content}>
+        <title>Projects | みつば</title>
         <div className={styles.all_projects_button}>
           <a href="/projects"> &lt;All Projects</a>
         </div>
@@ -19,7 +20,9 @@ const Page = () => {
               width={960}
               height={540}
             />
-            <LinkButton> YouTube </LinkButton>
+            <LinkButton link="https://x.com/3itsu8/status/1822951166063554767">
+              X&#40;Twitter&#41;&nbsp;
+            </LinkButton>
           </div>
           <section className={styles.content_info}>
             <div className={styles.content_title}>
