@@ -266,7 +266,7 @@ Content
   }
 
   .footer {
-    position: sticky;
+    /* position: sticky; */
     bottom: 0;
   }
 

@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 .button {
   padding: 0;
   border: none;
@@ -10,6 +8,7 @@
 }
 
 .button a {
+  font-family: var(--font-LINESeedJP_OTF_Bd);
   color: #93c4c0;
   font-size: clamp(18px, 3vw, 22px);
   text-decoration: none;
@@ -29,9 +28,10 @@
 
 @media (max-width: 768px) {
   .button a {
+    font-size: clamp(10px, 3vw, 14px);
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
-    padding-right: 2.4rem;
-    padding-left: 2.4rem;
+    padding-right: 2.0rem;
+    padding-left: 2.0rem;
   }
 }
