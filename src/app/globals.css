@@ -23,6 +23,16 @@ body {
   font-family: var(--font-LINESeedJP_OTF_Bd);
 }
 
+::-moz-selection {
+  background-color: #93c4c0;
+  color: #fff;
+}
+
+::selection {
+  background-color: #93c4c0;
+  color: #fff;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0;
