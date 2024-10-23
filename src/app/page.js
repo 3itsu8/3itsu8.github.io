@@ -1,8 +1,17 @@
 'use client';
+import { useEffect } from 'react';
 import styles from './page.module.css';
 import Image from 'next/image';
 
 export default function Home() {
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <title>Home | みつば</title>
