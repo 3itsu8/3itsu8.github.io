@@ -20,20 +20,17 @@
   overflow-x: hidden;
 }
 
-/* 
-Content
-*/
 .content {
   flex-grow: 1;
-  padding-top: 150px; /* 120pxから150pxに増やしました */
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 150px 20px 0; /* 上のパディングを150pxに変更 */
-  box-sizing: border-box; /* パディングを幅に含める */
+  padding: 150px 20px 0;
+  box-sizing: border-box;
 }
 
 .video_link {
@@ -49,9 +46,8 @@ Content
 .video_link img {
   max-width: 100%;
   height: auto;
-  /* max-width: 560px; */
-  margin: 60px auto 0; /* 上部のマージンを40pxから60pxに増やしました */
-  overflow: hidden; /* はみ出した部分を隠す */
+  margin: 60px auto 0;
+  overflow: hidden;
   border-radius: 8px;
 }
 
@@ -78,7 +74,7 @@ Content
   font-size: clamp(30px, 5vw, 40px);
   text-align: left;
   margin-top: 100px;
-  margin-bottom: 20px; /* タイトルの下の余白を追加 */
+  margin-bottom: 20px;
 }
 
 .all_projects_button {
@@ -126,7 +122,7 @@ Content
 
 .content_about p,
 .content_credits p {
-  white-space: nowrap; /* 改行を防ぐ */
+  white-space: nowrap;
 }
 
 .footer {
@@ -143,16 +139,9 @@ Content
   margin-top: auto;
 }
 
-/* .twitterEmbed {
-  max-width: 550px;
-  margin: 0 auto;
-  padding: 20px 0;
-  width: 100%;
-} */
-
 @media (max-width: 768px) {
   .content {
-    padding-top: 120px; /* スマートォン表示時のパディングを調整 */
+    padding-top: 120px;
   }
 
   .video_link a {
@@ -162,36 +151,36 @@ Content
   }
 
   .video_link {
-    max-width: 100%; /* 幅を100%に制限 */
-    margin-top: 40px; /* スマートフォン表示時のマージンを調整 */
+    max-width: 100%;
+    margin-top: 40px;
   }
 
   .main_info {
     padding-top: 40px;
-    width: 100%; /* 幅を100%に設定 */
+    width: 100%;
   }
 
   .content_info {
-    padding-top: 0; /* スマートフォン表示時のパディングをさらに減らす */
+    padding-top: 0;
     width: 100%;
   }
 
   .content_info h2 {
     margin-top: 0;
-    margin-bottom: 10px; /* タイトルの下の余白を追加 */
+    margin-bottom: 10px;
   }
 
   .content_caption {
-    font-size: 13px; /* スマホ表示時の文字サイズを小さくする */
+    font-size: 13px;
   }
 
   .content_caption h3 {
-    font-size: clamp(20px, 3.5vw, 24px); /* h3のサイズも調整 */
+    font-size: clamp(20px, 3.5vw, 24px);
   }
 
   .content_about p,
   .content_credits p {
-    font-size: 13px; /* スマホ表示時の文字サイズを小さくする */
+    font-size: 13px;
   }
 
   .all_projects_button {
@@ -206,25 +195,25 @@ Content
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .content {
-    padding-top: 220px; /* iPadサイズでの上部パディングをさらに増やす */
+    padding-top: 220px;
   }
 
   .video_link {
-    margin-top: 100px; /* iPadサイズでの動画上部のマージンをさらに増やす */
-    max-width: 100%; /* 幅を100%に制限 */
+    margin-top: 100px;
+    max-width: 100%;
     height: auto;
   }
 
   .main_info {
-    padding-top: 100px; /* main_infoの上部パディングを増やす */
+    padding-top: 100px;
   }
 
   .content_info {
-    padding-top: 80px; /* iPadサイズでの上部パディングを調整 */
+    padding-top: 80px;
   }
 
   .all_projects_button {
-    top: 140px; /* All projectsボタンの位置を調整 */
+    top: 140px;
   }
 }
 
@@ -237,7 +226,7 @@ Content
 
   .content_info {
     text-align: left;
-    margin-bottom: 200px; /* 120pxから200pxに大幅に増やしました */
+    margin-bottom: 200px;
   }
 
   .content_info h2 {
@@ -248,12 +237,8 @@ Content
     width: 48%;
   }
 
-  /* .twitterEmbed {
-    width: 48%;
-  } */
-
   .video_link {
-    margin-top: 240px; /* 160pxから240pxに大幅に増やしました */
+    margin-top: 240px;
   }
 }
 
@@ -268,19 +253,18 @@ Content
   }
 
   .footer {
-    /* position: sticky; */
     bottom: 0;
   }
 
   .content_caption {
     flex-direction: column;
-    align-items: flex-start; /* 左揃えに変更 */
+    align-items: flex-start;
   }
 
   .content_about,
   .content_credits,
   .twitterEmbed {
     width: 100%;
-    text-align: left; /* 左揃えに変更 */
+    text-align: left;
   }
 }
