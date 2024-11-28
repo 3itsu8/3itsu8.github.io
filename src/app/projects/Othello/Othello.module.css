@@ -28,7 +28,7 @@ Content
   padding-top: 150px; /* 120pxから150pxに増やしました */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -40,7 +40,7 @@ Content
   position: relative;
 }
 
-.video_link a{
+.video_link a {
   position: absolute;
   left: 2%;
   bottom: 4%;
@@ -62,15 +62,16 @@ Content
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  width: 100%;
 }
 
 .content_info {
-  padding-top: 60px; /* 100pxから60pxに減らしました */
+  padding-top: 60px;
   text-align: left;
   max-width: 600px;
-  margin: 0 auto;
   width: 100%;
+  margin: 0;
 }
 
 .content_info h2 {
@@ -106,9 +107,10 @@ Content
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  align-items: flex-start; /* 中央揃えから左揃えに変更 */
+  align-items: flex-start;
   width: 100%;
   max-width: 1000px;
+  gap: 0 300px;
   margin: 0 auto;
 }
 
@@ -118,8 +120,8 @@ Content
 
 .content_about,
 .content_credits {
-  text-align: left; /* 左揃えに変更 */
-  width: 100%; /* 幅を100%に設定 */
+  text-align: left;
+  width: 100%;
 }
 
 .content_about p,
@@ -153,7 +155,7 @@ Content
     padding-top: 120px; /* スマートォン表示時のパディングを調整 */
   }
 
-  .video_link a{
+  .video_link a {
     position: absolute;
     left: 2%;
     bottom: 5%;
@@ -234,12 +236,12 @@ Content
   }
 
   .content_info {
-    text-align: center;
+    text-align: left;
     margin-bottom: 200px; /* 120pxから200pxに大幅に増やしました */
   }
 
   .content_info h2 {
-    text-align: center;
+    text-align: left;
   }
 
   .content_about {
