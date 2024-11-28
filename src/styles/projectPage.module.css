@@ -53,7 +53,6 @@
 
 .main_info {
   color: #93c4c0;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +105,7 @@
   align-items: flex-start;
   width: 100%;
   max-width: 1000px;
-  gap: 0 300px;
+  gap: 275px;
   margin: 0 auto;
 }
 
