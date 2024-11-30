@@ -3,7 +3,7 @@ import ProjectPage from '../../../components/Projects/ProjectPage';
 const Page = () => {
   return (
     <ProjectPage
-      title={'PVSF2023Sp 稲葉曇 - ハルノ寂寞'}
+      title={'PVSF2023Sp ハルノ寂寞'}
       credits={['音楽 / 稲葉曇様', 'MMDモデル / Serre様, Priod_0906様']}
       about={[
         'ソフトウェア / Blender, AviUtl, Davinci Resolve',

@@ -121,7 +121,7 @@
 
 .content_about p,
 .content_credits p {
-  white-space: nowrap;
+  white-space: pre-wrap;
 }
 
 .footer {

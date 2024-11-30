@@ -13,7 +13,7 @@ const LinkButton = ({ children, ...props }: Props) => {
   return (
     <button className={styles.button} {...props}>
       <a href={link} rel="noopener noreferrer" target="_blank">
-        {children}
+        {children}&nbsp;
         <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
       </a>
     </button>

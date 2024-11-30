@@ -3,7 +3,7 @@ import ProjectPage from '../../../components/Projects/ProjectPage';
 const Page = () => {
   return (
     <ProjectPage
-      title={'トラボルタ - ココロ'}
+      title={'PVSF2022R ココロ'}
       credits={['音楽 / トラボルタ様', 'MMDモデル / Sour暄様, HKL6様']}
       about={[
         'ソフトウェア / Blender, AviUtl, Davinci Resolve',
