@@ -121,7 +121,7 @@
 
 .content_about p,
 .content_credits p {
-  white-space: pre-wrap;
+  white-space: nowrap;
 }
 
 .footer {
@@ -180,6 +180,7 @@
   .content_about p,
   .content_credits p {
     font-size: 13px;
+    white-space: pre-wrap;
   }
 
   .all_projects_button {
