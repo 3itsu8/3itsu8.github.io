@@ -14,6 +14,19 @@ export default function project() {
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>
             <Image
+              src="/images/project/2024_twinklenight.png"
+              alt='映像"twinkle night"'
+              width={854}
+              height={480}
+            />
+            <Link href="projects/twinklenight">
+              <div className={styles.mask}>
+                <div className={styles.caption}>創作島合作 - twinkle night</div>
+              </div>
+            </Link>
+          </FadeIn>
+          <FadeIn className={styles.content}>
+            <Image
               src="/images/project/2024_Othello.png"
               alt='映像"Othello"'
               width={854}
@@ -34,7 +47,7 @@ export default function project() {
             />
             <Link href="projects/inthegray">
               <div className={styles.mask}>
-                <div className={styles.caption}>【OS-4合作】in the gray</div>
+                <div className={styles.caption}>OS-4合作 - in the gray</div>
               </div>
             </Link>
           </FadeIn>
