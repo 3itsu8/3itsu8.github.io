@@ -99,7 +99,7 @@ const Page = () => {
       </section>
 
       <footer className={styles.footer}>
-        <p>©2024 みつば</p>
+        <p>©2025 みつば</p>
       </footer>
     </div>
   );
