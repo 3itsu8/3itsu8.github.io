@@ -10,6 +10,22 @@ export default function project() {
       <section className={styles.section_project}>
         <title>Projects | みつば</title>
         <h2 className={styles.section_title}>Projects</h2>
+        <h2 className={styles.contents_year}>2025</h2>
+        <div className={styles.contents_item}>
+          <FadeIn className={styles.content}>
+            <Image
+              src="/images/project/2025_NewYear2025.png"
+              alt='映像"Happy New Year 2025!"'
+              width={854}
+              height={480}
+            />
+            <Link href="projects/NewYear2025">
+              <div className={styles.mask}>
+                <div className={styles.caption}>Happy New Year 2025!</div>
+              </div>
+            </Link>
+          </FadeIn>
+        </div>
         <h2 className={styles.contents_year}>2024</h2>
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>

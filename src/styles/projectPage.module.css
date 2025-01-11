@@ -72,7 +72,7 @@
 .content_info h2 {
   font-size: clamp(30px, 5vw, 40px);
   text-align: left;
-  margin-top: 100px;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 
