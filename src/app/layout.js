@@ -5,6 +5,8 @@ import Header from '../components/Header/index.jsx';
 const LINESeedJP_OTF_Bd = localFont({
   src: './fonts/LINESeedJP_OTF_Bd.woff',
   variable: '--font-LINESeedJP_OTF_Bd',
+  preload: true,
+  display: 'swap',
 });
 
 export const metadata = {

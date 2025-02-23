@@ -13,7 +13,7 @@ const Page = () => {
         'ソフトウェア / Blender, AviUtl, Davinci Resolve',
         '小林オニキス様の楽曲「ロスト・サマー」をお借りして, 二次創作MVを作成しました.',
       ]}
-      imagePath={'2022_LostSummer.png'}
+      imagePath={'2022_LostSummer.webp'}
       link={'https://www.youtube.com/watch?v=mNKpsNXFSJk'}
       linkMedia={'YouTube'}
     />

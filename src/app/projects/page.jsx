@@ -14,7 +14,7 @@ export default function project() {
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2025_NewYear2025.png"
+              src="/images/project/2025_NewYear2025.webp"
               alt='映像"Happy New Year 2025!"'
               width={854}
               height={480}
@@ -30,7 +30,7 @@ export default function project() {
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2024_twinklenight.png"
+              src="/images/project/2024_twinklenight.webp"
               alt='映像"twinkle night"'
               width={854}
               height={480}
@@ -43,7 +43,7 @@ export default function project() {
           </FadeIn>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2024_Othello.png"
+              src="/images/project/2024_Othello.webp"
               alt='映像"Othello"'
               width={854}
               height={480}
@@ -56,7 +56,7 @@ export default function project() {
           </FadeIn>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2024_inthegray.png"
+              src="/images/project/2024_inthegray.webp"
               alt='映像"in the gray"'
               width={854}
               height={480}
@@ -73,7 +73,7 @@ export default function project() {
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2023_Sekibaku.png"
+              src="/images/project/2023_Sekibaku.webp"
               alt='映像"ハルノ寂寞"'
               width={854}
               height={480}
@@ -88,7 +88,7 @@ export default function project() {
           </FadeIn>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2023_DopingDance.png"
+              src="/images/project/2023_DopingDance.webp"
               alt='映像"ドーピングダンス"'
               width={854}
               height={480}
@@ -107,7 +107,7 @@ export default function project() {
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2022_Kokoro.png"
+              src="/images/project/2022_Kokoro.webp"
               alt='映像"ココロ"'
               width={854}
               height={480}
@@ -122,7 +122,7 @@ export default function project() {
           </FadeIn>
           <FadeIn className={styles.content}>
             <Image
-              src="/images/project/2022_LostSummer.png"
+              src="/images/project/2022_LostSummer.webp"
               alt='映像"ロスト・サマー"'
               width={854}
               height={480}

@@ -9,7 +9,7 @@ const Page = () => {
         'ソフトウェア / After Effects, illustrator',
         '2025年のあいさつ映像になります.',
       ]}
-      imagePath={'2025_NewYear2025.png'}
+      imagePath={'2025_NewYear2025.webp'}
       link={'https://x.com/3itsu8/status/1874108399782420623'}
       linkMedia={'X(Twitter)'}
     />

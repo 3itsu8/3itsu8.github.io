@@ -9,7 +9,7 @@ const Page = () => {
         'ソフトウェア / Blender, After Effects',
         'オセロをモチーフにしたモーショングラフィクス作品です.',
       ]}
-      imagePath={'2024_Othello.png'}
+      imagePath={'2024_Othello.webp'}
       link={'https://x.com/3itsu8/status/1822951166063554767'}
       linkMedia={'X(Twitter)'}
     />

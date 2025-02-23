@@ -9,7 +9,7 @@ const Page = () => {
         'ソフトウェア / Blender, After Effects',
         '創作島合作にて投稿した作品になります.',
       ]}
-      imagePath={'2024_twinklenight.png'}
+      imagePath={'2024_twinklenight.webp'}
       link={'https://youtu.be/1uX3GIQYT_8?si=wXCovtu_Isc3Co5p&t=157'}
       linkMedia={'YouTube'}
     ></ProjectPage>

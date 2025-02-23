@@ -9,7 +9,7 @@ const Page = () => {
         'ソフトウェア / Blender, AviUtl, Davinci Resolve',
         'PVSF2023Spにて投稿した, 楽曲「ハルノ寂寞」の二次創作MVになります',
       ]}
-      imagePath={'2023_Sekibaku.png'}
+      imagePath={'2023_Sekibaku.webp'}
       link={'https://www.youtube.com/watch?v=wQjTWwEB6RU'}
       linkMedia={'YouTube'}
     ></ProjectPage>

@@ -9,7 +9,7 @@ const Page = () => {
         'ソフトウェア / Blender, AviUtl',
         'STEAKA様の楽曲「ドーピングダンス」をお借りして, 二次創作MVを作成しました.',
       ]}
-      imagePath={'2023_DopingDance.png'}
+      imagePath={'2023_DopingDance.webp'}
       link={'https://twitter.com/3itsu8/status/1651192127291031557'}
       linkMedia={'X(Twitter)'}
     />

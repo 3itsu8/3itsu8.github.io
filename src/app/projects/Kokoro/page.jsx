@@ -9,7 +9,7 @@ const Page = () => {
         'ソフトウェア / Blender, AviUtl, Davinci Resolve',
         'PVSF2022Rにて投稿した, 楽曲「ココロ」の二次創作MVになります.',
       ]}
-      imagePath={'2022_Kokoro.png'}
+      imagePath={'2022_Kokoro.webp'}
       link={'https://www.youtube.com/watch?v=hfg8bsGSZ5k'}
       linkMedia={'YouTube'}
     />
