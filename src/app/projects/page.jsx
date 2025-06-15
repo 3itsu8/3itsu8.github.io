@@ -14,6 +14,19 @@ export default function project() {
         <div className={styles.contents_item}>
           <FadeIn className={styles.content}>
             <Image
+              src="/images/project/2025_PVSF2025SpCD.webp"
+              alt='映像"PVSF2025Sp 告知映像"'
+              width={854}
+              height={480}
+            />
+            <Link href="projects/PVSF2025SpCD">
+              <div className={styles.mask}>
+                <div className={styles.caption}>PVSF2025Sp 告知映像</div>
+              </div>
+            </Link>
+          </FadeIn>
+          <FadeIn className={styles.content}>
+            <Image
               src="/images/project/2025_NewYear2025.webp"
               alt='映像"Happy New Year 2025!"'
               width={854}
